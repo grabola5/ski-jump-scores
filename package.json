@@ -1,0 +1,26 @@
+{
+  "name": "24.5-skijumping_scores",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calculateDistancePoints.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^6.2.1",
+    "onchange": "^6.1.0"
+  },
+  "scripts": {
+    "test": "mocha -b ./*.test.js",
+    "test:watch": "onchange \"./*.js\" -- npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grabola5/ski-jump-scores.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grabola5/ski-jump-scores/issues"
+  },
+  "homepage": "https://github.com/grabola5/ski-jump-scores#readme"
+}
